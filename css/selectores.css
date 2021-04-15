@@ -1,0 +1,18 @@
+/*El selector universal (*) significa todos los elementos del html*/
+/* * {
+    color: red;
+} */
+h1 {
+    color: red;
+}
+h2, h3 {
+    color: orange;
+}
+/*Selectores descendentes*/
+div article p {
+    font-size: 20px;
+    color: black;
+}
+p a{
+    color: red;
+}
