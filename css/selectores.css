@@ -16,3 +16,10 @@ div article p {
 p a{
     color: red;
 }
+.grande {
+    font-size: 28px;
+}
+#rojo{
+    font-size: 28px;
+}
+/*El id nunca trabajarlo cuando es css pero si para javascript. Usar class es lo recomendado cuando estes trabajando css*/
