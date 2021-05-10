@@ -1,0 +1,18 @@
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{/* hover significa cuando pase el mouse por encima cambie el efecto*/
+    background: #f9a03f;
+    color: #fff;
+}
+a:link {
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    text-decoration: line-through;
+}
+a:active {
+    text-decoration: underline;
+}

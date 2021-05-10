@@ -1,0 +1,19 @@
+body {
+
+    /*Valor que podemos usar en las propiedades
+    background-size: auto | 100px 100px | 100% 100%|cover|contain;
+    Explicacion de valores para background-size: 
+        auto: valor por defecto, el ancho y alto de la imagen.
+        ancho y alto: Ancho y alto que nosotros le especifiquemos, si solo ponemos el primer valor, el segundo sera automatico.
+        porcentaje: porcentaje del ancho y alto que tendra el fondo tomando en cuenta el contenedor padre.
+        cover: ajusta el ancho de la imagen que avarque el ancho del contenedor padre.
+        contain: Ajusta la imagen para que avarque el ancho y alto del contenedor padre.
+    ;
+    */
+    /* background: #70A4E8; */
+    background: url(img/joana-godinho-vYLwogo27pg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*Fixed funciona para dejar la imagen estatica aun estando en scroll*/
+    
+}
