@@ -13,7 +13,7 @@ body {
     /* background: #70A4E8; */
     background: url(img/joana-godinho-vYLwogo27pg-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-attachment: fixed; /*Fixed funciona para dejar la imagen estatica aun estando en scroll*/
     
 }
