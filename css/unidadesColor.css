@@ -1,0 +1,39 @@
+/*
+padding: margen interior,
+margin: margen exterior 
+*/
+body{
+    font-family: Arial;
+    line-height: 22px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.caja{
+    width: 200px;
+   /*  height: 200px; */
+    background: #0353a4;
+    margin: 20px;
+    padding: 20px;
+/*     
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px; */
+}
+.caja p{
+    background: #eee5e9;
+}
+
+
+/*
+Hay 17 palabras clave que podemos usar:
+aqua,black,blue,fuchia, gray, green, line, maroon,navy,olive,orange,purple,red, silver,teal,white,yelow
+
+rgb decimal: rgb(215,38,61)
+rgb porcentual: rgb(84%, 15,24)
+rgb hexadecimal: #D7263D
+rgba a significa transparencia del 0 al 1
+*/
