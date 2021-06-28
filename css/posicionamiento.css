@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f2f2f2;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #0e6ba8;
+    margin: 20px;
+    float: left;
+}
+/* .posicionada{
+    background: #6695e8;
+    position: relative;Es relativa a la posicion donde la quiera mover 
+    top: 50px;
+    right: ;
+    left: 200px;
+    bottom: ;
+
+} */
+/* .posicionada{
+    background: #6695e8;
+    position: fixed; absoluta es que dependiendo del lugar se mueva, los demas elementos se ubican en la posicion faltante.
+    top: ;
+    right: ;
+    left: ;
+    bottom: ;
+
+} */
+.posicionada{
+    background: #6695e8;
+ /*    position: absolute; funciona para quedarse pegado en la pantalla independiente si se da scroll 
+/*     top: ;
+    right: ;
+    left: 200px;
+    bottom: 0%; */ 
+
+}
+/* .cajaPadre{
+    margin: 20px;
+    background: #2e294e;
+    width: 500px;
+    height: 500px;
+    position: relative;
+} */
