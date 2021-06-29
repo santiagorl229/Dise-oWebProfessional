@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+div, a {
+    background: #ccc;
+}
+a {
+/*     display: block;
+   visibility: hidden; */
+   background: #246eb9;
+   color: #fff;
+   padding: ;
+}
+
+/*display [inline | block | none | inline-block | flex]*/
+.caja{
+    color: #000;
+    background: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+.contenedor{
+    width: 600px;
+    background: #ccc;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.izquierda{
+    float: left;
+    float: right;
+}
+.contenedor2 .caja{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.azul{
+    background: #246eb9;
+    z-index: 10;
+}
+.gris{
+    background: #32021f;
+    left: 50px;
+    bottom: 80px;
+    z-index: 9;
+}
