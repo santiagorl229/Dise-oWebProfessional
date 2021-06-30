@@ -1,0 +1,17 @@
+/*El primer valor es la posicion horizontal de la sombra
+  El segundo valor es la posicion vertical de la sombre
+  El tercer valor es el taño de la sombra
+
+  Podemos asignarle u nvalor para el color de la sombre
+*/
+
+.texto{
+    color: #fff;
+    text-shadow: 0px 0px 10px blue;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow: 0 5px 0px rgba(0,0,0,.5);
+}
