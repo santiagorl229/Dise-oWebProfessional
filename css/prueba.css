@@ -15,6 +15,7 @@ nav {
     width: 200px;
     position: fixed;
     top: 9px;
+    left: 800px;
 }
 
 .holabebe{
@@ -36,6 +37,7 @@ nav a {
     color: #fff;
     margin: 0 1em;
     text-decoration: none;
+    
 }
 .scrolling-box {
     background-color: #eaeaea;
