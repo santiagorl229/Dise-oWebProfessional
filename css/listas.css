@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+}
+
+
+/* ul,ol{
+    list-style: none;
+    padding: 0;
+} */
+ul{
+    list-style: square;
+    list-style-image: url('../img/checked.png');
+}
+ol{
+    list-style: decimal-leading-zero;
+}
+.menu{
+    background: #4357ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.menu li {
+    border-bottom: 1px solid rgba(red, green, blue, alpha);
+}
