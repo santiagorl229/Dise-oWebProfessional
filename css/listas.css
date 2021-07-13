@@ -22,5 +22,15 @@ ol{
     text-align: center;
 }
 .menu li {
-    border-bottom: 1px solid rgba(red, green, blue, alpha);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background: #4888d6;
 }
